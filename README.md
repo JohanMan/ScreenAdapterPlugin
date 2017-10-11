@@ -7,4 +7,5 @@ Android 屏幕适配插件
 ```
 
 ### 使用方法
-Android Studio 在 Setting中导入 ScreenAdapter.jar 包，安装插件，重启之后，按 alt+s 键就会自动生成各种屏幕分辨率的 dimens.xml 文件
+安装插件后，按快捷键alt+s（或者点击File菜单下的ScreenAdapter选项），就会自动生成各种屏幕分辨率的dimens.xml文件！
+如果没有出现，请刷新一下项目目录。
