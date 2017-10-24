@@ -86,6 +86,7 @@ public class ScreenAdapterAction extends AnAction {
                 findAllDimensFile(file, dimensFileList);
                 continue;
             }
+            if (!file.getParentFile().getName().equals("values")) continue;
             if (file.getName().equals("dimens.xml")) {
                 dimensFileList.add(file);
             }
